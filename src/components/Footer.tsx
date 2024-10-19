@@ -26,11 +26,11 @@ const socials = [
 
 const Footer = () => {
 	return (
-		<div className="mx-32 bg-black p-14 pb-6 rounded-2xl mt-32">
+		<div className="lg:mx-32 bg-black p-14 pb-6 rounded-2xl mt-32">
 			<Image src={logo} alt="" className="w-44" />
 
-			<div className="flex items-center justify-between font-space">
-				<div className="w-1/3 flex flex-col gap-4">
+			<div className="flex flex-col lg:flex-row items-center justify-between font-space">
+				<div className="lg:w-1/3 flex flex-col gap-4">
 					<p className="text-primary">War Three Kingdom © 2024 COPYRIGHT</p>
 					<p>War Three Kingdom is a WEB3-oriented NFT PC / Mobile / Console game for real game lovers, enhanced with new dynamics and realistic graphics.</p>
 				</div>
@@ -44,7 +44,7 @@ const Footer = () => {
 				</div>
 			</div>
 
-			<div className="flex items-center justify-between pt-16">
+			<div className="flex flex-col lg:flex-row gap-2 items-center justify-between pt-16">
 				{footerOptions.map((option, index) =>
 					!option.comingSoon ? (
 						<Link key={index} href={option.href} className="hover:text-primary text-center w-36">

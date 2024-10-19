@@ -14,7 +14,7 @@ const team = [
 
 const page = () => {
 	return (
-		<div className="pt-32  max-w-[75%] m-auto">
+		<div className="pt-32 lg:max-w-[75%] m-auto">
 			<p className="text-4xl text-primary text-center">STORY OF War Three Kingdom</p>
 			<p className="text-4xl pt-6 text-center">EXPLORE NEW PLANETS</p>
 			<div className="w-2/3 m-auto flex flex-col gap-5 mb-10 font-space text-center">
@@ -34,7 +34,7 @@ const page = () => {
 				</p>
 			</div>
 
-			<div className="flex flex-col items-center gap-4 border-[0.5px] border-primary rounded-xl pt-10 pb-0 overflow-hidden w-2/3 mx-auto">
+			<div className="flex flex-col items-center gap-4 border-[0.5px] border-primary rounded-xl pt-10 pb-0 overflow-hidden lg:w-2/3 mx-auto text-center">
 				<p className="font-space text-3xl text-primary">CREATED WITH FUTURE TECHNOLOGIES</p>
 				<p className="font-space marker:text-primary">Presented by War Three Kingdom</p>
 				<Image height={700} width={700} src={banner} alt="author avatar" className="w-full h-full object-cover border-b border-gray-500" />
@@ -67,7 +67,7 @@ const page = () => {
 
 			<div className="grid grid-cols-12 gap-10">
 				{team.map((n) => (
-					<div key={n.name} className="py-5 flex flex-col gap-6 col-span-4 h-[65vh] ">
+					<div key={n.name} className="py-5 flex flex-col gap-6 col-span-12 lg:col-span-4 h-[65vh] ">
 						<div className="flex flex-col items-center gap-4 border-[0.5px] border-gray-500 rounded-xl py-10 overflow-hidden h-full hover:shadow-lg hover:shadow-primary">
 							<Image height={800} width={800} src={n.photo} alt="author avatar" className="w-full h-[300px] object-contain border-b border-gray-500" />
 							<div className="flex flex-col gap-1 px-10">

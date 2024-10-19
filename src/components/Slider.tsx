@@ -15,7 +15,7 @@ import 'swiper/css/navigation';
 
 const Slider = () => {
 	return (
-		<div className="h-[50vh] w-[400px] m-auto">
+		<div className="h-[180px] lg:h-[50vh] w-[300px] lg:w-[400px] m-auto">
 			<Swiper
 				slidesPerView={1}
 				spaceBetween={30}

@@ -15,7 +15,7 @@ import 'swiper/css/navigation';
 
 const GameSlider = () => {
 	return (
-		<div className=" h-[350px] w-[600px] m-auto">
+		<div className="h-[180px] lg:h-[350px] w-[300px] lg:w-[600px] m-auto">
 			<Swiper
 				slidesPerView={1}
 				spaceBetween={30}
