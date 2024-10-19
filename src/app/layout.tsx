@@ -1,10 +1,12 @@
 import type { Metadata } from 'next';
-import { Space_Mono } from 'next/font/google';
+import { Space_Mono, Montserrat } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import MUITheme from '@/components/MUITheme';
+import Footer from '@/components/Footer';
 
 const Mono = Space_Mono({ weight: '400', subsets: ['latin'], variable: '--font-space-mono' });
+const Mont = Montserrat({ weight: ['400', '500'], subsets: ['latin'], variable: '--font-montserrat' });
 
 export const metadata: Metadata = {
 	title: 'War Three Kingdom',
@@ -18,10 +20,11 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={Mono.variable}>
+			<body className={`${Mono.variable} ${Mont.variable}`}>
 				<MUITheme>
 					<Navbar />
 					{children}
+					<Footer />
 				</MUITheme>
 			</body>
 		</html>

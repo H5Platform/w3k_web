@@ -16,7 +16,7 @@ const HoverText = ({ children, className }: { children: ReactNode; className: st
 	};
 
 	return (
-		<p onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={{ cursor: 'pointer', fontSize: '18px' }} className={className}>
+		<p onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className={className}>
 			{text}
 		</p>
 	);

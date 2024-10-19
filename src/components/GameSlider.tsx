@@ -3,19 +3,19 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 import Image from 'next/image';
-import ss1 from '@/assets/screenshot/1.png';
-import ss2 from '@/assets/screenshot/2.png';
-import ss3 from '@/assets/screenshot/3.png';
-import ss4 from '@/assets/screenshot/4.png';
-import ss5 from '@/assets/screenshot/5.png';
+import ss1 from '@/assets/Thumbnails/t1.jpg';
+import ss2 from '@/assets/Thumbnails/t2.jpg';
+import ss3 from '@/assets/Thumbnails/t3.jpg';
+import ss4 from '@/assets/Thumbnails/t4.jpg';
+import ss5 from '@/assets/Thumbnails/t6.jpg';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-const Slider = () => {
+const GameSlider = () => {
 	return (
-		<div className="h-[50vh] w-[400px] m-auto">
+		<div className=" h-[350px] w-[600px] m-auto">
 			<Swiper
 				slidesPerView={1}
 				spaceBetween={30}
@@ -50,4 +50,4 @@ const Slider = () => {
 	);
 };
 
-export default Slider;
+export default GameSlider;

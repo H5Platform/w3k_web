@@ -11,6 +11,7 @@ const config: Config = {
 			},
 			fontFamily: {
 				space: ['var(--font-space-mono)'],
+				mont: ['var(--font-montserrat)'],
 			},
 		},
 	},
