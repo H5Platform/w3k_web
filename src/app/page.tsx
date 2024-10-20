@@ -8,6 +8,8 @@ import { FaXTwitter } from 'react-icons/fa6';
 import logo from '@/assets/logo2.png';
 import banner from '@/assets/banner.png';
 import banner2 from '@/assets/banner2.png';
+import news1 from '@/assets/Thumbnails/t4.jpg';
+import news2 from '@/assets/Thumbnails/t3.jpg';
 import GameSlider from '@/components/GameSlider';
 import DividerWithText from '@/components/DividerWithText';
 import MultiSlide from '@/components/MultiSlide';
@@ -24,9 +26,9 @@ const socials = [
 ];
 
 const news = [
-	{ title: 'War Three Kingdom and Enjinstarter Join Forces: Pioneering the Future of Web3 Gaming', image: banner, date: 'April 10, 2024' },
-	{ title: 'War Three Kingdom and Enjinstarter Join Forces: Pioneering the Future of Web3 Gaming', image: banner2, date: 'April 10, 2024' },
-	{ title: 'War Three Kingdom and Enjinstarter Join Forces: Pioneering the Future of Web3 Gaming', image: banner, date: 'April 10, 2024' },
+	{ title: 'War Three Kingdom: Pioneering the Future of Web3 Gaming', image: banner, date: 'April 10, 2024' },
+	{ title: 'New Strategy update for empires', image: news2, date: 'April 10, 2024' },
+	{ title: 'Conquer more with the new characters', image: news1, date: 'April 10, 2024' },
 ];
 
 export default function Home() {
@@ -160,10 +162,10 @@ export default function Home() {
 
 					<div className="grid grid-cols-12 w-full lg:w-2/3 gap-10 m-auto mt-10 text-center">
 						{news.map((n) => (
-							<div key={n.title} className="py-5 flex flex-col gap-6 col-span-12 lg:col-span-4">
-								<div className="flex flex-col items-center gap-4 border-[0.5px] border-gray-500 rounded-xl pt-0 pb-10 overflow-hidden">
-									<Image height={700} width={700} src={n.image} alt="author avatar" className="w-full h-full object-cover border-b border-gray-500" />
-									<div className="flex flex-col gap-6 ">
+							<div key={n.title} className="py-5 flex flex-col gap-6 col-span-12 lg:col-span-4 h-full">
+								<div className="h-full flex flex-col items-center gap-4 border-[0.5px] border-gray-500 rounded-xl pt-0 pb-10 overflow-hidden">
+									<Image height={700} width={700} src={n.image} alt="author avatar" className="w-full h-[60%] object-cover border-b border-gray-500" />
+									<div className="flex flex-col gap-6 px-4">
 										<p className="font-space">{n.title}</p>
 										<li className="font-space marker:text-primary text-sm">{n.date}</li>
 									</div>
