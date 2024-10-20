@@ -5,7 +5,7 @@ import { ThemeProvider, createTheme } from '@mui/material';
 const theme = createTheme({
 	palette: {
 		primary: {
-			main: '#54f0bc',
+			main: '#f2da74',
 		},
 		info: {
 			main: '#fff',

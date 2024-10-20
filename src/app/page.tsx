@@ -5,7 +5,7 @@ import Link from 'next/link';
 // import { FaDiscord, FaFacebook, FaInstagram, FaLinkedin, FaTelegram, FaYoutube } from 'react-icons/fa';
 import { FaTelegram } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
-import logo from '@/assets/logo.png';
+import logo from '@/assets/logo2.png';
 import banner from '@/assets/banner.png';
 import banner2 from '@/assets/banner2.png';
 import GameSlider from '@/components/GameSlider';
@@ -23,9 +23,9 @@ const socials = [
 ];
 
 const news = [
-	{ title: 'Lussa and Enjinstarter Join Forces: Pioneering the Future of Web3 Gaming', image: banner, date: 'April 10, 2024' },
-	{ title: 'Lussa and Enjinstarter Join Forces: Pioneering the Future of Web3 Gaming', image: banner2, date: 'April 10, 2024' },
-	{ title: 'Lussa and Enjinstarter Join Forces: Pioneering the Future of Web3 Gaming', image: banner, date: 'April 10, 2024' },
+	{ title: 'War Three Kingdom and Enjinstarter Join Forces: Pioneering the Future of Web3 Gaming', image: banner, date: 'April 10, 2024' },
+	{ title: 'War Three Kingdom and Enjinstarter Join Forces: Pioneering the Future of Web3 Gaming', image: banner2, date: 'April 10, 2024' },
+	{ title: 'War Three Kingdom and Enjinstarter Join Forces: Pioneering the Future of Web3 Gaming', image: banner, date: 'April 10, 2024' },
 ];
 
 export default function Home() {
@@ -59,7 +59,7 @@ export default function Home() {
 					</div>
 
 					{/* right side */}
-					<div className="max-w-1/2 flex flex-col items-center font-space pt-6">
+					<div className="max-w-1/2 flex flex-col items-center font-space lg:py-6">
 						<Image height={100} width={100} src={logo} alt="logo" />
 						<p className="text-2xl max-w-80 text-center py-4">Earth is threatened by a solar system</p>
 						<GameSlider />
@@ -146,7 +146,7 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="my-40">
+				<div className="my-40 mx-6 lg:mx-auto">
 					<div className="py-5 w-1/2 m-auto font-mont text-5xl text-center">
 						<DividerWithText>
 							<p className="font-light">LASTEST NEWS</p>
@@ -154,7 +154,7 @@ export default function Home() {
 					</div>
 
 					<p className="text-center text-xl font-space max-w-[50vw] m-auto my-14">
-						Don’t miss out on the latest updates, exclusive offers, and exciting news from Lussa! Sign up for our newsletter today and be the first to know.
+						Don’t miss out on the latest updates, exclusive offers, and exciting news from War Three Kingdom! Sign up for our newsletter today and be the first to know.
 					</p>
 
 					<div className="grid grid-cols-12 w-full lg:w-2/3 gap-10 m-auto mt-10 text-center">
@@ -177,7 +177,7 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="relative w-2/3 mx-auto p-10 rounded-xl overflow-hidden font-mont ">
+				<div className="relative lg:w-2/3 mx-6 lg:mx-auto p-10 rounded-xl overflow-hidden font-mont ">
 					<div className="absolute w-full h-full top-0 bottom-0 left-0 right-0 object-cover -z-10 opacity-35 bg-black"></div>
 					<Image src={banner} alt="banner" className="absolute w-full h-full top-0 bottom-0 left-0 right-0 object-cover -z-20" />
 

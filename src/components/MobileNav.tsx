@@ -13,7 +13,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '@/assets/logo.png';
+import logo from '@/assets/logo2.png';
 
 type NavOption = ({ label: string; href: string; comingSoon?: undefined } | { label: string; href: string; comingSoon: boolean })[];
 

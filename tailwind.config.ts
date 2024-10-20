@@ -7,7 +7,7 @@ const config: Config = {
 			colors: {
 				background: 'var(--background)',
 				foreground: 'var(--foreground)',
-				primary: '#54f0bc',
+				primary: 'var(--primary-color)',
 			},
 			fontFamily: {
 				space: ['var(--font-space-mono)'],
