@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+	--primary-color: #54f0bc;
+	--swiper-navigation-size: 32px !important;
+}
+
 body {
 	color: #fff;
 	background: #060600;
@@ -48,7 +53,7 @@ input {
 }
 
 .swiper-pagination-bullet-active {
-	background: #54f0bc !important;
+	background: var(--primary-color) !important;
 }
 
 ul {
@@ -56,5 +61,23 @@ ul {
 }
 
 ul li::marker {
-	color: #54f0bc; /* Change bullet color to red */
+	color: var(--primary-color); /* Change bullet color to red */
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	color: var(--primary-color) !important;
+}
+
+.multislide .swiper-pagination-fraction,
+.swiper-pagination-custom,
+.multislide .swiper-horizontal > .swiper-pagination-bullets,
+.multislide .swiper-pagination-bullets.swiper-pagination-horizontal {
+	position: static !important;
+	padding-top: 12px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+	background-color: #ffffff80;
 }

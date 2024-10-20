@@ -11,7 +11,6 @@ const navOptions = [
 	{ label: 'W3K DEX', href: '/dex', comingSoon: true },
 	{ label: 'Marketplace', href: '/marketplace', comingSoon: true },
 	{ label: 'Leaderboard', href: '/leaderboard', comingSoon: true },
-	// { label: 'Whitepaper', href: 'https://drive.google.com/drive/folders/1-KWd2Ivjdrx41wnZvkI6bAI1C_x-qgus' },
 ];
 
 const Navbar = () => {
@@ -25,22 +24,22 @@ const Navbar = () => {
 				<div className="flex gap-2 font-space uppercase ">
 					{navOptions.map((option, index) =>
 						!option.comingSoon ? (
-							<Link key={index} href={option.href} className="hover:text-primary text-center w-36">
+							<Link key={index} href={option.href} className="hover:text-primary text-center w-32 text-[12px]">
 								{option.label}
 							</Link>
 						) : (
-							<HoverText key={index} className="hover:text-primary w-36 text-center">
+							<HoverText key={index} className="hover:text-primary w-32 text-[12px] text-center">
 								{option.label}
 							</HoverText>
 						)
 					)}
-					<a href="https://drive.google.com/drive/folders/1-KWd2Ivjdrx41wnZvkI6bAI1C_x-qgus" target="_blank" className="hover:text-primary text-center w-36">
+					<a href="https://drive.google.com/file/d/1LSctiJ4kR5xd7UDI0AC-N7vFr1m9ZJqX/view?usp=drive_link" target="_blank" className="hover:text-primary text-center  w-32 text-[12px]">
 						Whitepaper
 					</a>
 				</div>
 
 				<div className="font-space">
-					<CSButton className="hover:text-primary text-center text-sm w-36 font-space">Launch App</CSButton>
+					<CSButton className="hover:text-primary text-center text-[12px] w-36 font-space">Launch App</CSButton>
 				</div>
 			</div>
 			<div className="lg:hidden inline-block w-full">

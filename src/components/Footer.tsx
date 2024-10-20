@@ -2,7 +2,7 @@ import React from 'react';
 import HoverText from '@/components/CSText';
 import Image from 'next/image';
 import logo from '@/assets/logo.png';
-import { FaDiscord, FaFacebook, FaInstagram, FaLinkedin, FaTelegram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaTelegram } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import Link from 'next/link';
 
@@ -14,14 +14,14 @@ const footerOptions = [
 ];
 
 const socials = [
-	{ name: 'Twitter', icon: FaXTwitter, link: '' },
-	{ name: 'Discord', icon: FaDiscord, link: 'https://discord.com/app' },
-	{ name: 'Twitter', icon: FaTwitter, link: '' },
-	{ name: 'Instagram', icon: FaInstagram, link: '' },
-	{ name: 'YouTube', icon: FaYoutube, link: '' },
-	{ name: 'Facebook', icon: FaFacebook, link: '' },
-	{ name: 'Telegram', icon: FaTelegram, link: '' },
-	{ name: 'LinkedIn', icon: FaLinkedin, link: '' },
+	{ name: 'Twitter', icon: FaXTwitter, link: 'https://x.com/habijabiking' },
+	{ name: 'Telegram', icon: FaTelegram, link: 'https://t.me/war3kingdoms_ann' },
+	// { name: 'Discord', icon: FaDiscord, link: 'https://discord.com/app' },
+	// { name: 'Twitter', icon: FaTwitter, link: '' },
+	// { name: 'Instagram', icon: FaInstagram, link: '' },
+	// { name: 'YouTube', icon: FaYoutube, link: '' },
+	// { name: 'Facebook', icon: FaFacebook, link: '' },
+	// { name: 'LinkedIn', icon: FaLinkedin, link: '' },
 ];
 
 const Footer = () => {
@@ -56,7 +56,7 @@ const Footer = () => {
 						</HoverText>
 					)
 				)}
-				<a href="https://drive.google.com/drive/folders/1-KWd2Ivjdrx41wnZvkI6bAI1C_x-qgus" target="_blank" className="hover:text-primary text-center w-36">
+				<a href="https://drive.google.com/file/d/1LSctiJ4kR5xd7UDI0AC-N7vFr1m9ZJqX/view?usp=drive_link" target="_blank" className="hover:text-primary text-center w-36">
 					Whitepaper
 				</a>
 			</div>

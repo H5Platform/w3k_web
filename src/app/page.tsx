@@ -2,23 +2,24 @@ import Slider from '@/components/Slider';
 import { Button, TextField } from '@mui/material';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaDiscord, FaFacebook, FaInstagram, FaLinkedin, FaTelegram, FaTwitter, FaYoutube } from 'react-icons/fa';
+// import { FaDiscord, FaFacebook, FaInstagram, FaLinkedin, FaTelegram, FaYoutube } from 'react-icons/fa';
+import { FaTelegram } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import logo from '@/assets/logo.png';
 import banner from '@/assets/banner.png';
 import banner2 from '@/assets/banner2.png';
 import GameSlider from '@/components/GameSlider';
 import DividerWithText from '@/components/DividerWithText';
+import MultiSlide from '@/components/MultiSlide';
 
 const socials = [
-	{ name: 'Twitter', icon: FaXTwitter, link: '' },
-	{ name: 'Discord', icon: FaDiscord, link: 'https://discord.com/app' },
-	{ name: 'Twitter', icon: FaTwitter, link: '' },
-	{ name: 'Instagram', icon: FaInstagram, link: '' },
-	{ name: 'YouTube', icon: FaYoutube, link: '' },
-	{ name: 'Facebook', icon: FaFacebook, link: '' },
-	{ name: 'Telegram', icon: FaTelegram, link: '' },
-	{ name: 'LinkedIn', icon: FaLinkedin, link: '' },
+	{ name: 'Twitter', icon: FaXTwitter, link: 'https://x.com/habijabiking' },
+	{ name: 'Telegram', icon: FaTelegram, link: 'https://t.me/war3kingdoms_ann' },
+	// { name: 'Discord', icon: FaDiscord, link: 'https://discord.com/app' },
+	// { name: 'Instagram', icon: FaInstagram, link: '' },
+	// { name: 'YouTube', icon: FaYoutube, link: '' },
+	// { name: 'Facebook', icon: FaFacebook, link: '' },
+	// { name: 'LinkedIn', icon: FaLinkedin, link: '' },
 ];
 
 const news = [
@@ -33,17 +34,20 @@ export default function Home() {
 			<main className="bg-gradient-to-br from-[#1b1b1b] ">
 				{/* banner */}
 				<div className="flex flex-col lg:flex-row items-center justify-center gap-28 relative min-h-[80vh]">
+					{/* left side */}
 					<div className="font-space pt-20 lg:pt-0">
 						<div className="leading-loose lg:gap-3 flex flex-col pb-3">
-							<p className="text-5xl lg:text-8xl font-bold">NOW!</p>
+							<p className="text-5xl lg:text-5xl font-bold">NOW!</p>
 							<p className="lg:text-3xl">Presented by War Three Kingdom </p>
 							<p className="lg:text-3xl">The Final Frontier</p>
 							<p className="">War Three Kingdom, The Final Frontier.</p>
 						</div>
 						<div className="flex flex-col lg:flex-row items-center gap-3">
-							<Button variant="outlined" color="info">
-								Register & Subscribe
-							</Button>
+							<a href="https://t.me/war3kingdoms">
+								<Button variant="outlined" color="info">
+									Register & Subscribe
+								</Button>
+							</a>
 							<div className="flex  gap-3">
 								{socials.map((s) => (
 									<Link key={s.link} href={s.link}>
@@ -54,6 +58,7 @@ export default function Home() {
 						</div>
 					</div>
 
+					{/* right side */}
 					<div className="max-w-1/2 flex flex-col items-center font-space pt-6">
 						<Image height={100} width={100} src={logo} alt="logo" />
 						<p className="text-2xl max-w-80 text-center py-4">Earth is threatened by a solar system</p>
@@ -89,7 +94,7 @@ export default function Home() {
 						<p className="text-center lg:text-9xl font-extralight text-opacity-45 absolute left-0 right-0 -z-50 hidden lg:inline-block">ROADMAP</p>
 						<div className="grid grid-cols-12 gap-10  lg:px-10 py-5 rounded-xl mt-16 relative lg:overflow-hidden text-center lg:text-left">
 							<div className="absolute w-full h-full top-0 bottom-0 left-0 right-0 object-cover -z-10 opacity-35 bg-black"></div>
-							<Image src={banner2} alt="banner" className="absolute w-full h-full top-0 bottom-0 left-0 right-0 object-cover -z-20 hidden lg:inline-block" />
+							<Image src={banner2} alt="banner" className="absolute w-full h-full top-0 bottom-0 left-0 right-0 object-cover object-center scale-150 -z-20 hidden lg:inline-block " />
 							<div className="col-span-12 lg:col-span-4 ">
 								<p className="text-3xl text-primary pb-3">2024 Q2</p>
 								<ul>
@@ -126,6 +131,18 @@ export default function Home() {
 								</ul>
 							</div>
 						</div>
+					</div>
+				</div>
+
+				<div className="my-t0 lg:max-w-[70%] m-auto">
+					<div className="py-5 w-1/2 m-auto font-mont text-5xl text-center pb-10">
+						<DividerWithText>
+							<p className="font-light">Partners</p>
+						</DividerWithText>
+					</div>
+
+					<div>
+						<MultiSlide />
 					</div>
 				</div>
 

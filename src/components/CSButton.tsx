@@ -17,7 +17,7 @@ const CSButton = ({ children, className }: { children: ReactNode; className: str
 	};
 
 	return (
-		<Button variant="outlined" color={text == 'Coming Soon' ? 'primary' : 'info'} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className={className}>
+		<Button variant="outlined" color={text == 'Coming Soon' ? 'primary' : 'info'} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} size="small" className={className}>
 			{text}
 		</Button>
 	);
