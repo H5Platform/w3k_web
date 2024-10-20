@@ -1,5 +1,5 @@
 import Slider from '@/components/Slider';
-import { Button, TextField } from '@mui/material';
+import { Button } from '@mui/material';
 import Image from 'next/image';
 import Link from 'next/link';
 // import { FaDiscord, FaFacebook, FaInstagram, FaLinkedin, FaTelegram, FaYoutube } from 'react-icons/fa';
@@ -11,6 +11,7 @@ import banner2 from '@/assets/banner2.png';
 import GameSlider from '@/components/GameSlider';
 import DividerWithText from '@/components/DividerWithText';
 import MultiSlide from '@/components/MultiSlide';
+import Newsletter from '@/components/Newsletter';
 
 const socials = [
 	{ name: 'Twitter', icon: FaXTwitter, link: 'https://x.com/habijabiking' },
@@ -177,20 +178,7 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="relative lg:w-2/3 mx-6 lg:mx-auto p-10 rounded-xl overflow-hidden font-mont ">
-					<div className="absolute w-full h-full top-0 bottom-0 left-0 right-0 object-cover -z-10 opacity-35 bg-black"></div>
-					<Image src={banner} alt="banner" className="absolute w-full h-full top-0 bottom-0 left-0 right-0 object-cover -z-20" />
-
-					<p className="text-2xl lg:text-5xl text-primary">SUBSCRIBE</p>
-					<p className="text-xl py-3 tracking-widest">The War Three Kingdom Newsletter</p>
-					<div className="flex flex-col lg:flex-row items-center gap-2 py-4">
-						<TextField id="filled-basic" label="Email" variant="outlined" color="primary" />
-						<Button variant="contained" color="primary">
-							Subscribe
-						</Button>
-					</div>
-					<p className="tracking-widest">Please, Subscribe to our newsletter and stay uptaded.</p>
-				</div>
+				<Newsletter />
 			</main>
 		</div>
 	);

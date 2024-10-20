@@ -81,3 +81,8 @@ ul li::marker {
 .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
 	background-color: #ffffff80;
 }
+
+/* MUI */
+.MuiInputBase-input .MuiOutlinedInput-input {
+	color: white !important;
+}
