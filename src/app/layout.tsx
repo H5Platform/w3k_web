@@ -4,6 +4,7 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import MUITheme from '@/components/MUITheme';
 import Footer from '@/components/Footer';
+import { Toaster } from 'react-hot-toast';
 
 const Mono = Space_Mono({ weight: '400', subsets: ['latin'], variable: '--font-space-mono' });
 const Mont = Montserrat({ weight: ['400', '500'], subsets: ['latin'], variable: '--font-montserrat' });
@@ -24,6 +25,7 @@ export default function RootLayout({
 				<MUITheme>
 					<Navbar />
 					{children}
+					<Toaster />
 					<Footer />
 				</MUITheme>
 			</body>
