@@ -9,7 +9,7 @@ import MobileNav from './MobileNav';
 const navOptions = [
 	{ label: 'About Us', href: '/about' },
 	{ label: 'W3K DEX', href: '/dex', comingSoon: true },
-	{ label: 'Marketplace', href: '/marketplace', comingSoon: true },
+	{ label: 'Marketplace', href: '/marketplace', comingSoon: false },
 	{ label: 'Leaderboard', href: '/leaderboard', comingSoon: true },
 ];
 

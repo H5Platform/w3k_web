@@ -72,8 +72,7 @@ export default function Home() {
 					<div className="bg-black opacity-15 w-full absolute h-full -z-10"></div>
 				</div>
 
-				<div></div>
-
+				{/* explore section */}
 				<div className="flex flex-col items-center font-space mx-auto py-10">
 					<div className="lg:w-2/3 pt-6 relative">
 						<p className="text-center text-3xl">EXPLORE THE FEATURES OF THE MAPS</p>
@@ -91,6 +90,7 @@ export default function Home() {
 					</div>
 				</div>
 
+				{/* roadmap section */}
 				<div className="flex flex-col items-center font-space mx-auto py-10">
 					<div className="lg:w-2/3 w-full pt-6 relative">
 						<p className="text-center text-3xl">ROADMAP</p>

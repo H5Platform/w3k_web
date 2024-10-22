@@ -15,6 +15,23 @@ body {
 	cursor: url('../assets/sword.png'), auto !important;
 }
 
+.verticalText {
+	writing-mode: vertical-rl;
+}
+
+.outlinedText {
+	/* px-4 py-2 border border-gray-500 rounded-3xl */
+	--tw-border-opacity: 1;
+
+	font-size: 14px;
+	height: fit-content;
+	padding: 4px 16px;
+	border-radius: 1.5rem;
+	border: 1px solid rgb(107 114 128 / var(--tw-border-opacity));
+	border-color: rgb(107 114 128 / var(--tw-border-opacity));
+	text-align: center;
+}
+
 a,
 button,
 input {
@@ -85,4 +102,15 @@ ul li::marker {
 /* MUI */
 .MuiInputBase-input .MuiOutlinedInput-input {
 	color: white !important;
+}
+
+@media only screen and (max-width: 768px) {
+	.outlinedText {
+		font-size: 10px;
+		padding: 2px 10px;
+	}
+
+	.verticalText {
+		writing-mode: initial;
+	}
 }
