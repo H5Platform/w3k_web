@@ -26,13 +26,13 @@ const page = () => {
 					<div className="flex items-center w-full">
 						<div className="flex flex-col gap-6 lg:px-10 py-5 rounded-xl mt-16 relative lg:overflow-hidden text-center lg:text-left w-full justify-center items-center">
 							{shopItems.map((item) => (
-								<div key={item.name} className="flex flex-col lg:flex-row items-center gap-6 lg:max-w-[75%] max-w-[90%] w-full">
+								<div key={item.name} className="flex flex-col lg:flex-row items-center gap-6 lg:max-w-[75%] max-w-[90%] w-fit lg:w-full">
 									<div className="lg:rotate-180 text-center rounded-xl verticalText">Crates</div>
-									<div className="bg-black w-full flex flex-col lg:flex-row items-center p-6 rounded-xl gap-6">
+									<div className="bg-black w-full flex flex-col lg:flex-row items-center p-6 rounded-xl gap-6 justify-between">
 										<div className="max-w-[50%]">
 											<Image height={500} width={500} src={item.photo} alt="" className="max-w-[300px] w-full max-h-[300px] rounded-xl" />
 										</div>
-										<div className="w-full h-full lg:px-6">
+										<div className="w-full h-full lg:px-6 lg:max-w-[70%]">
 											<p className="text-3xl">{item.name}</p>
 
 											<div className="grid grid-cols-12 justify-between gap-4 w-fit mt-6 text-[8px]">
@@ -63,14 +63,14 @@ const page = () => {
 												</div>
 
 												<div className="w-full lg:col-span-5 flex justify-center mt-5 col-span-12">
-													<Button variant="contained" size="small" className="text-[12px]">
+													<Button variant="contained" size="small" className="!text-[10px]">
 														Coming Soon
 													</Button>
 												</div>
 												<div className="col-span-1 hidden lg:inline-block">{/* <Image src={eth} alt="" className="" /> */}</div>
 
 												<div className="w-full col-span-12 lg:col-span-5 flex justify-center lg:mt-5">
-													<Button variant="outlined" color="info" size="small">
+													<Button variant="outlined" color="info" size="small" className="!text-[10px]">
 														View Content
 													</Button>
 												</div>

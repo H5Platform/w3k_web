@@ -18,7 +18,7 @@ const Navbar = () => {
 		<div>
 			<div className="justify-between p-2 items-center absolute top-0 left-0 right-0 w-full z-20 hidden lg:flex">
 				<Link href="/">
-					<Image height={100} width={100} src={logo} alt="logo" />
+					<Image height={100} width={100} src={logo} alt="logo" className="w-14 h-14 object-contain" />
 				</Link>
 
 				<div className="flex gap-2 font-space uppercase ">
