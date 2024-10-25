@@ -3,12 +3,13 @@ import React from 'react';
 import banner from '@/assets/banner.png';
 import DividerWithText from '@/components/DividerWithText';
 import emma from '@/assets/team/emma.png';
-import marco from '@/assets/team/marco.png';
+// import marco from '@/assets/team/cto.jpg';
+import marco2 from '@/assets/team/cto.jpg';
 import jason from '@/assets/team/jason.png';
 
 const team = [
 	{ name: 'Emma Han', photo: emma, designation: 'Founder/CEO', desc: ['Over 10 years of game development experience', 'Led 2 successful RPG games and blockchain projects'] },
-	{ name: 'Marco', photo: marco, designation: 'TECHNICAL DIRECTOR/CTO', desc: ['Game Development 20 years', 'Extensive blockchain development and smart contract design experience.'] },
+	{ name: 'Marco', photo: marco2, designation: 'TECHNICAL DIRECTOR/CTO', desc: ['Game Development 20 years', 'Extensive blockchain development and smart contract design experience.'] },
 	{ name: 'JASON', photo: jason, designation: 'GAME DESIGNER', desc: ['Senior strategy game designe', 'Participated in the development of several successful Three Kingdoms-themed games.'] },
 ];
 
@@ -69,7 +70,7 @@ const page = () => {
 				{team.map((n) => (
 					<div key={n.name} className="py-5 flex flex-col gap-6 col-span-12 lg:col-span-4 h-[65vh] ">
 						<div className="flex flex-col items-center gap-4 border-[0.5px] border-gray-500 rounded-xl py-10 overflow-hidden h-full hover:shadow-lg hover:shadow-primary">
-							<Image height={800} width={800} src={n.photo} alt="author avatar" className="w-full h-[300px] object-contain border-b border-gray-500" />
+							<Image height={800} width={800} src={n.photo} alt="author avatar" className="w-full h-[300px] object-contain border-b border-gray-500  rounded-xl" />
 							<div className="flex flex-col gap-1 px-10">
 								<p className="font-space text-end text-3xl uppercase font-bold text-primary">{n.name}</p>
 								<p className="font-space text-end text-lg">{n.designation}</p>
