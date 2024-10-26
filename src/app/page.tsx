@@ -97,38 +97,38 @@ export default function Home() {
 					<div className="lg:w-2/3 w-full pt-6 relative">
 						<p className="text-center text-3xl">ROADMAP</p>
 						<p className="text-center lg:text-9xl font-extralight text-opacity-45 absolute left-0 right-0 -z-50 hidden lg:inline-block">ROADMAP</p>
-						<div className="grid grid-cols-12 gap-10  lg:px-10 py-5 rounded-xl mt-16 relative lg:overflow-hidden text-center lg:text-left">
+						<div className="grid grid-cols-12 lg:gap-10  lg:px-10 py-5 rounded-xl mt-16 relative lg:overflow-hidden text-center lg:text-left">
 							<div className="absolute w-full h-full top-0 bottom-0 left-0 right-0 object-cover -z-10 opacity-35 bg-black"></div>
 							<Image src={banner2} alt="banner" className="absolute w-full h-full top-0 bottom-0 left-0 right-0 object-cover object-center scale-150 -z-20 hidden lg:inline-block " />
-							<div className="col-span-12 lg:col-span-4 ">
+							<div className="col-span-12 lg:col-span-4 pb-6 lg:pb-0 ">
 								<p className="text-3xl text-primary pb-3">2024 Q2</p>
 								<ul>
 									<li>Project establishment.</li>
 									<li>Launch of private round financing.</li>
 								</ul>
 							</div>
-							<div className="col-span-12 lg:col-span-4">
+							<div className="col-span-12 lg:col-span-4 pb-6 lg:pb-0">
 								<p className="text-3xl text-primary pb-3">2024 Q3</p>
 								<ul>
 									<li>Completion of internal testing.</li>
 									<li>Test server online.</li>
 								</ul>
 							</div>
-							<div className="col-span-12 lg:col-span-4">
+							<div className="col-span-12 lg:col-span-4 pb-6 lg:pb-0">
 								<p className="text-3xl text-primary pb-3">2024 Q4</p>
 								<ul>
 									<li>Official game launch</li>
 									<li>Start of W3KT token public sale..</li>
 								</ul>
 							</div>
-							<div className="col-span-12 lg:col-span-4">
+							<div className="col-span-12 lg:col-span-4 pb-6 lg:pb-0">
 								<p className="text-3xl text-primary pb-3">2025 Q1</p>
 								<ul>
 									<li>Launch of cross-server PVP battles.</li>
 									<li>In-game NFT market.</li>
 								</ul>
 							</div>
-							<div className="col-span-12 lg:col-span-4">
+							<div className="col-span-12 lg:col-span-4 pb-6 lg:pb-0">
 								<p className="text-3xl text-primary pb-3">2025 Q2</p>
 								<ul>
 									<li>Add growth system and more PVE content.</li>
@@ -162,7 +162,7 @@ export default function Home() {
 						Don’t miss out on the latest updates, exclusive offers, and exciting news from War Three Kingdom! Sign up for our newsletter today and be the first to know.
 					</p>
 
-					<div className="grid grid-cols-12 w-full lg:w-2/3 gap-10 m-auto mt-10 text-center">
+					<div className="grid grid-cols-12 w-full lg:w-2/3 lg:gap-10 m-auto mt-10 text-center">
 						{news.map((n) => (
 							<div key={n.title} className="py-5 flex flex-col gap-6 col-span-12 lg:col-span-4 h-full">
 								<div className="h-full flex flex-col items-center gap-4 border-[0.5px] border-gray-500 rounded-xl pt-0 pb-10 overflow-hidden">

@@ -25,9 +25,9 @@ const team = [
 
 const page = () => {
 	return (
-		<div className="pt-32 lg:max-w-[90%] m-auto">
+		<div className="lg:pt-32 pt-12 lg:max-w-[90%] m-auto">
 			<p className="text-4xl text-primary text-center">War Three Kingdoms: Rise of a New Empire</p>
-			<div className="w-2/3 m-auto flex flex-col gap-5 mb-10 font-space text-center">
+			<div className="w-10/12 g:w-2/3 m-auto flex flex-col gap-5 mb-10 font-space text-center">
 				<p className="text-lg mt-10">
 					In a world where the three most powerful kingdoms vie for control, the land is ravaged by endless battles, political schemes, and betrayals. The once-great empires of the Three Kingdoms—Wei,
 					Shu, and Wu—are now embroiled in a struggle for dominance, and only one will emerge victorious to unite the fragmented territories under one banner.
@@ -87,7 +87,7 @@ const page = () => {
 
 			<p className="font-space text-center">We are constantly continuing to improve ourselves with our flawless vision and innovative perspective that will shape the future.</p>
 
-			<div className="grid grid-cols-12 gap-10 px-5">
+			<div className="grid grid-cols-12 lg:gap-10 px-5">
 				{team.map((n) => (
 					<div key={n.name} className="py-5 flex flex-col gap-6 col-span-12 lg:col-span-3">
 						<div className="flex flex-col items-center border-[0.5px] border-gray-500 rounded-xl overflow-hidden h-full hover:shadow-lg hover:shadow-primary overflow-hidden">
