@@ -2,11 +2,9 @@ import Slider from '@/components/Slider';
 import { Button } from '@mui/material';
 import Image from 'next/image';
 import Link from 'next/link';
-// import { FaDiscord, FaFacebook, FaInstagram, FaLinkedin, FaTelegram, FaYoutube } from 'react-icons/fa';
 import { FaTelegram } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import logo from '@/assets/logo2.png';
-// import banner from '@/assets/banner.png';
 import banner2 from '@/assets/banner2.png';
 import banner3 from '@/assets/banner3.jpg';
 import news1 from '@/assets/Thumbnails/t4.jpg';
@@ -42,10 +40,10 @@ export default function Home() {
 					{/* left side */}
 					<div className="font-space pt-20 lg:pt-0">
 						<div className="leading-loose lg:gap-3 flex flex-col pb-3">
-							<p className="text-5xl lg:text-5xl font-bold">NOW!</p>
-							<p className="lg:text-3xl">Presented by War Three Kingdom </p>
-							<p className="lg:text-3xl">The Final Frontier</p>
-							<p className="">War Three Kingdom, The Final Frontier.</p>
+							<p className="text-5xl lg:text-5xl font-bold">PLAY!</p>
+							<p className="lg:text-3xl">War Three Kingdom </p>
+							<p className="lg:text-3xl">Rise of a New Empire</p>
+							<p className="">Join the battle of kingdoms for supremacy</p>
 						</div>
 						<div className="flex flex-col lg:flex-row items-center gap-3">
 							<a href="https://t.me/war3kingdoms">
@@ -66,7 +64,7 @@ export default function Home() {
 					{/* right side */}
 					<div className="max-w-1/2 flex flex-col items-center font-space lg:py-6">
 						<Image height={100} width={100} src={logo} alt="logo" />
-						<p className="text-2xl max-w-80 text-center py-4">Earth is threatened by a solar system</p>
+						<p className="text-xl max-w-[70%] text-center py-4">The fate of the Three Kingdoms lies in your hands</p>
 						<GameSlider />
 					</div>
 
