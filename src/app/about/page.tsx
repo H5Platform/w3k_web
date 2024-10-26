@@ -24,7 +24,7 @@ const team = [
 
 const page = () => {
 	return (
-		<div className="pt-32 lg:max-w-[75%] m-auto">
+		<div className="pt-32 lg:max-w-[90%] m-auto">
 			<p className="text-4xl text-primary text-center">STORY OF War Three Kingdom</p>
 			<p className="text-4xl pt-6 text-center">EXPLORE NEW PLANETS</p>
 			<div className="w-2/3 m-auto flex flex-col gap-5 mb-10 font-space text-center">
@@ -75,11 +75,11 @@ const page = () => {
 
 			<p className="font-space text-center">We are constantly continuing to improve ourselves with our flawless vision and innovative perspective that will shape the future.</p>
 
-			<div className="grid grid-cols-12 gap-10">
+			<div className="grid grid-cols-12 gap-10 px-5">
 				{team.map((n) => (
-					<div key={n.name} className="py-5 flex flex-col gap-6 col-span-12 lg:col-span-4">
+					<div key={n.name} className="py-5 flex flex-col gap-6 col-span-12 lg:col-span-3">
 						<div className="flex flex-col items-center border-[0.5px] border-gray-500 rounded-xl overflow-hidden h-full hover:shadow-lg hover:shadow-primary overflow-hidden">
-							<Image height={800} width={800} src={n.photo} alt="author avatar" className="w-full h-[320px] object-cover  rounded-t-xl object-top" />
+							<Image height={800} width={800} src={n.photo} alt="author avatar" className="w-full h-[400px] lg:h-[320px] object-cover  rounded-t-xl object-top" />
 							<div className="flex flex-col gap-1 px-8 border-t border-gray-500 pt-4">
 								<p className="font-space text-end text-3xl uppercase font-bold text-primary">{n.name}</p>
 								<p className="font-space text-end text-lg">{n.designation}</p>
