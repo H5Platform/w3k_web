@@ -36,14 +36,14 @@ export default function Home() {
 		<div className="">
 			<main className="bg-gradient-to-br from-[#1b1b1b] ">
 				{/* banner */}
-				<div className="flex flex-col lg:flex-row items-center justify-center gap-28 relative min-h-[80vh]">
+				<div className="flex flex-col lg:flex-row items-center justify-evenly lg:justify-center lg:gap-28 relative min-h-[80vh]">
 					{/* left side */}
 					<div className="font-space pt-20 lg:pt-0">
-						<div className="leading-loose lg:gap-3 flex flex-col pb-3">
-							<p className="text-5xl lg:text-5xl font-bold">PLAY!</p>
-							<p className="lg:text-3xl">War Three Kingdom </p>
+						<div className="leading-loose lg:gap-3 flex flex-col pb-3 text-center lg:text-left">
+							{/* <p className="text-5xl lg:text-5xl font-bold mb-6">PLAY!</p> */}
+							<p className="text-3xl lg:text-5xl font-bold pb-4">War Three Kingdom </p>
 							<p className="lg:text-3xl">Rise of a New Empire</p>
-							<p className="">Join the battle of kingdoms for supremacy</p>
+							<p className="w-[90%] lg:w-full m-auto">Join the battle of supremacy</p>
 						</div>
 						<div className="flex flex-col lg:flex-row items-center gap-3">
 							<a href="https://t.me/war3kingdoms">
@@ -63,8 +63,8 @@ export default function Home() {
 
 					{/* right side */}
 					<div className="max-w-1/2 flex flex-col items-center font-space lg:py-6">
-						<Image height={100} width={100} src={logo} alt="logo" />
-						<p className="text-xl max-w-[70%] text-center py-4">The fate of the Three Kingdoms lies in your hands</p>
+						<Image height={100} width={100} src={logo} alt="logo" className="hidden lg:inline-block" />
+						<p className="lg:text-xl max-w-[70%] text-center lg:spy-4 pb-6 lg:pb-0">The fate of the Three Kingdoms lies in your hands</p>
 						<GameSlider />
 					</div>
 
@@ -150,13 +150,13 @@ export default function Home() {
 				</div>
 
 				<div className="my-40 mx-6 lg:mx-auto">
-					<div className="py-5 w-1/2 m-auto font-mont text-5xl text-center">
+					<div className="py-5 lg:w-1/2 m-auto font-mont text-5xl text-center">
 						<DividerWithText>
 							<p className="font-light">LASTEST NEWS</p>
 						</DividerWithText>
 					</div>
 
-					<p className="text-center text-xl font-space max-w-[50vw] m-auto my-14">
+					<p className="text-center text-xl font-space lg:max-w-[50vw] m-auto my-14">
 						Don’t miss out on the latest updates, exclusive offers, and exciting news from War Three Kingdom! Sign up for our newsletter today and be the first to know.
 					</p>
 
