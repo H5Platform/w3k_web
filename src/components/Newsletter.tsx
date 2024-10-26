@@ -4,7 +4,7 @@ import { Button, TextField } from '@mui/material';
 import Image from 'next/image';
 import React, { useState } from 'react';
 // import banner from '@/assets/banner.png';
-import banner2 from '@/assets/banner2.png';
+import banner2 from '@/assets/banner3.jpg';
 import toast from 'react-hot-toast';
 
 const Newsletter = () => {
@@ -44,7 +44,7 @@ const Newsletter = () => {
 	return (
 		<div className="relative lg:w-2/3 mx-6 lg:mx-auto p-10 rounded-xl overflow-hidden font-mont ">
 			<div className="absolute w-full h-full top-0 bottom-0 left-0 right-0 object-cover -z-10 opacity-35 bg-black"></div>
-			<Image src={banner2} alt="banner" className="absolute w-full h-full top-0 bottom-0 left-0 right-0 object-cover -z-20" />
+			<Image src={banner2} alt="banner" className="absolute w-full h-full top-0 bottom-0 left-0 right-0 object-cover object-top -z-20" />
 
 			<p className="text-2xl lg:text-5xl text-primary">SUBSCRIBE</p>
 			<p className="text-xl py-3 tracking-widest">The War Three Kingdom Newsletter</p>

@@ -77,14 +77,14 @@ export default function Home() {
 				{/* explore section */}
 				<div className="flex flex-col items-center font-space mx-auto py-10">
 					<div className="lg:w-2/3 pt-6 relative">
-						<p className="text-center text-3xl">EXPLORE THE FEATURES OF THE MAPS</p>
+						<p className="text-center text-3xl">EXPLORE THE KINGDOMS</p>
 						<p className="text-center lg:text-9xl font-extralight text-opacity-45 absolute left-0 right-0 -z-10 hidden lg:inline-block">EXPLORE</p>
 						<div className="flex flex-col lg:flex-row items-center bg-black px-10 py-5 rounded-xl mt-16 gap-5">
 							<div className="lg:w-1/2 text-center lg:text-left">
-								<p className="text-3xl text-primary pb-3">QUANTUM QUANDARY</p>
+								<p className="text-3xl text-primary pb-3">Battle for Supremacy</p>
 								<p>
-									Enter the Quantum Quandary, a fortified space station teeming with danger! Engage in thrilling third-person shootouts through tight corridors and expansive chambers. Commandeer
-									high-tech weaponry and outmaneuver your rivals to dominate this epic space battleground!
+									In War Three Kingdoms, time is limited, and each decision counts. To survive, players must conquer territories, expand their influence, and outsmart enemy factions. You will lead
+									armies, engage in legendary battles, and make or break alliances. But beware: trust is fragile, and betrayal is a constant shadow in this chaotic world.
 								</p>
 							</div>
 							<Slider />
@@ -174,7 +174,7 @@ export default function Home() {
 								</div>
 								<Link href="/comingsoon">
 									<Button variant="outlined" color="primary">
-										Read More
+										Coming Soon
 									</Button>
 								</Link>
 							</div>

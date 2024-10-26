@@ -26,45 +26,56 @@ const team = [
 const page = () => {
 	return (
 		<div className="pt-32 lg:max-w-[90%] m-auto">
-			<p className="text-4xl text-primary text-center">STORY OF War Three Kingdom</p>
-			<p className="text-4xl pt-6 text-center">EXPLORE NEW PLANETS</p>
+			<p className="text-4xl text-primary text-center">War Three Kingdoms: Rise of a New Empire</p>
 			<div className="w-2/3 m-auto flex flex-col gap-5 mb-10 font-space text-center">
 				<p className="text-lg mt-10">
-					Earth is in peril as it is hit by a massive solar storm that threatens to destroy all life on the planet. In a desperate attempt to save humanity, the government has launched various
-					missions to explore new planets for possible settlement.
+					In a world where the three most powerful kingdoms vie for control, the land is ravaged by endless battles, political schemes, and betrayals. The once-great empires of the Three Kingdoms—Wei,
+					Shu, and Wu—are now embroiled in a struggle for dominance, and only one will emerge victorious to unite the fragmented territories under one banner.
 				</p>
 
 				<p className="text-lg">
-					What they didn’t know. going into this mission was that each planet has unique challenges and dangers, from scorching sun rays, freezing conditions, radioactive explosions, insuffucient
-					oxygen, supersonic winds and acid rains.
+					The kingdoms are not only at war with each other but are also forced to confront threats from mystical forces and barbaric tribes beyond the borders. Warriors from each kingdom must rise to
+					the occasion, navigating treacherous lands, harsh climates, and the looming menace of mythical beasts, while harnessing new technologies and ancient artifacts that could tip the scales in
+					their favor.
 				</p>
 
+				<p className="text-3xl py-4 font-semibold text-center">The Objective</p>
+
 				<p className="text-lg">
-					The goal of the game is to act as a team to explore and conquer new planets, while fighting other groups of migrating humans trying to survive and escape the planet’s hardships with limited
-					time. The player must ensure the survival of their team as they travel from planet to planet, gathering resources and upgrading their technology.
+					Players must choose a kingdom to pledge their loyalty to and lead a faction to victory. The game revolves around three core pillars: conquest, resource management, and survival. Each kingdom
+					offers unique strengths, such as tactical intelligence, raw power, or mastery of ancient magic, but their survival depends on strategic decisions and collaboration.
+				</p>
+				<p className="text-3xl py-4 font-semibold text-center">Exploring New Frontiers</p>
+
+				<p className="text-lg">
+					As war consumes the land, your kingdom must push its boundaries, venturing into uncharted territories. These lands are filled with challenges—burning deserts, frigid mountains, radioactive
+					wastelands, and poisonous swamps. The natural dangers are only the beginning. Players must also confront rival kingdoms who are seeking to seize the same resources and treasures that will
+					secure their survival and dominance.
+				</p>
+				<p className="text-3xl py-4 font-semibold text-center">Team-Based Gameplay</p>
+
+				<p className="text-lg">
+					Players must act as a team, gathering resources and upgrading their kingdom’s technology and defenses. From forging powerful weapons to fortifying strongholds, strategic planning is key.
+					Players can form alliances within and across kingdoms to face the common enemies or challenge each other in epic large-scale battles.
 				</p>
 			</div>
 
-			<div className="flex flex-col items-center gap-4 border-[0.5px] border-primary rounded-xl pt-10 pb-0 overflow-hidden lg:w-2/3 mx-auto text-center">
-				<p className="font-space text-3xl text-primary">CREATED WITH FUTURE TECHNOLOGIES</p>
+			<div className="flex flex-col items-center gap-4 border-[0.5px] border-primary rounded-xl pt-5 pb-0 overflow-hidden lg:w-2/3 mx-auto text-center">
+				<p className="font-space text-3xl text-primary">Battle for Supremacy</p>
 				<p className="font-space marker:text-primary">Presented by War Three Kingdom</p>
 				<Image height={700} width={700} src={banner2} alt="author avatar" className="w-full h-full object-cover border-b border-gray-500" />
 			</div>
 
 			<div className="w-2/3 m-auto flex flex-col gap-5 mb-10 font-space text-center">
 				<p className="text-lg mt-10">
-					Earth is in peril as it is hit by a massive solar storm that threatens to destroy all life on the planet. In a desperate attempt to save humanity, the government has launched various
-					missions to explore new planets for possible settlement.
+					In War Three Kingdoms, time is limited, and each decision counts. To survive, players must conquer territories, expand their influence, and outsmart enemy factions. You will lead armies,
+					engage in legendary battles, and make or break alliances. But beware: trust is fragile, and betrayal is a constant shadow in this chaotic world.
 				</p>
+				<p className="text-lg mt-10">The fate of the Three Kingdoms lies in your hands. Will you unite the land under your rule, or will your kingdom fall to the might of your enemies?</p>
 
 				<p className="text-lg">
-					What they didn’t know. going into this mission was that each planet has unique challenges and dangers, from scorching sun rays, freezing conditions, radioactive explosions, insuffucient
-					oxygen, supersonic winds and acid rains.
-				</p>
-
-				<p className="text-lg">
-					The goal of the game is to act as a team to explore and conquer new planets, while fighting other groups of migrating humans trying to survive and escape the planet’s hardships with limited
-					time. The player must ensure the survival of their team as they travel from planet to planet, gathering resources and upgrading their technology.
+					This version adapts the planetary exploration and survival elements into the core conflict of War Three Kingdoms, focusing on the dynamics of resource management, exploration, and strategic
+					warfare within a fantasy setting.
 				</p>
 			</div>
 
