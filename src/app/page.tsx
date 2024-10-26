@@ -16,7 +16,7 @@ import MultiSlide from '@/components/MultiSlide';
 import Newsletter from '@/components/Newsletter';
 
 const socials = [
-	{ name: 'Twitter', icon: FaXTwitter, link: 'https://x.com/habijabiking' },
+	{ name: 'Twitter', icon: FaXTwitter, link: 'https://x.com/war3kingdoms_' },
 	{ name: 'Telegram', icon: FaTelegram, link: 'https://t.me/war3kingdoms_ann' },
 	// { name: 'Discord', icon: FaDiscord, link: 'https://discord.com/app' },
 	// { name: 'Instagram', icon: FaInstagram, link: '' },
