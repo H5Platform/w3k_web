@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
-import banner from '@/assets/banner.png';
+// import banner from '@/assets/banner.png';
+import banner2 from '@/assets/banner3.jpg';
 import DividerWithText from '@/components/DividerWithText';
 // import marco from '@/assets/team/cto.jpg';
 // import jason from '@/assets/team/jason.png';
@@ -47,7 +48,7 @@ const page = () => {
 			<div className="flex flex-col items-center gap-4 border-[0.5px] border-primary rounded-xl pt-10 pb-0 overflow-hidden lg:w-2/3 mx-auto text-center">
 				<p className="font-space text-3xl text-primary">CREATED WITH FUTURE TECHNOLOGIES</p>
 				<p className="font-space marker:text-primary">Presented by War Three Kingdom</p>
-				<Image height={700} width={700} src={banner} alt="author avatar" className="w-full h-full object-cover border-b border-gray-500" />
+				<Image height={700} width={700} src={banner2} alt="author avatar" className="w-full h-full object-cover border-b border-gray-500" />
 			</div>
 
 			<div className="w-2/3 m-auto flex flex-col gap-5 mb-10 font-space text-center">
