@@ -2,15 +2,24 @@ import Image from 'next/image';
 import React from 'react';
 import banner from '@/assets/banner.png';
 import DividerWithText from '@/components/DividerWithText';
-import emma from '@/assets/team/emma.png';
 // import marco from '@/assets/team/cto.jpg';
+// import jason from '@/assets/team/jason.png';
+// import emma from '@/assets/team/emma.png';
 import marco2 from '@/assets/team/cto.jpg';
-import jason from '@/assets/team/jason.png';
+import emma2 from '@/assets/team/emma2.png';
+import jason2 from '@/assets/team/jason.jpg';
+import lan from '@/assets/team/lan.jpg';
 
 const team = [
-	{ name: 'Emma Han', photo: emma, designation: 'Founder/CEO', desc: ['Over 10 years of game development experience', 'Led 2 successful RPG games and blockchain projects'] },
+	{ name: 'Emma Han', photo: emma2, designation: 'Founder/CEO', desc: ['Over 10 years of game development experience', 'Led 2 successful RPG games and blockchain projects'] },
 	{ name: 'Marco', photo: marco2, designation: 'TECHNICAL DIRECTOR/CTO', desc: ['Game Development 20 years', 'Extensive blockchain development and smart contract design experience.'] },
-	{ name: 'JASON', photo: jason, designation: 'GAME DESIGNER', desc: ['Senior strategy game designe', 'Participated in the development of several successful Three Kingdoms-themed games.'] },
+	{ name: 'Jason Gu', photo: jason2, designation: 'GAME DESIGNER', desc: ['Senior strategy game designe', 'Participated in the development of several successful Three Kingdoms-themed games.'] },
+	{
+		name: 'Lan Bai',
+		photo: lan,
+		designation: 'ARTIST',
+		desc: ['Expert in character and environment design for mobile RPGs', 'Skilled in creating immersive visuals and engaging narratives'],
+	},
 ];
 
 const page = () => {
@@ -68,10 +77,10 @@ const page = () => {
 
 			<div className="grid grid-cols-12 gap-10">
 				{team.map((n) => (
-					<div key={n.name} className="py-5 flex flex-col gap-6 col-span-12 lg:col-span-4 h-[65vh] ">
-						<div className="flex flex-col items-center gap-4 border-[0.5px] border-gray-500 rounded-xl py-10 overflow-hidden h-full hover:shadow-lg hover:shadow-primary">
-							<Image height={800} width={800} src={n.photo} alt="author avatar" className="w-full h-[300px] object-contain border-b border-gray-500  rounded-xl" />
-							<div className="flex flex-col gap-1 px-10">
+					<div key={n.name} className="py-5 flex flex-col gap-6 col-span-12 lg:col-span-4">
+						<div className="flex flex-col items-center border-[0.5px] border-gray-500 rounded-xl overflow-hidden h-full hover:shadow-lg hover:shadow-primary overflow-hidden">
+							<Image height={800} width={800} src={n.photo} alt="author avatar" className="w-full h-[320px] object-cover  rounded-t-xl object-top" />
+							<div className="flex flex-col gap-1 px-8 border-t border-gray-500 pt-4">
 								<p className="font-space text-end text-3xl uppercase font-bold text-primary">{n.name}</p>
 								<p className="font-space text-end text-lg">{n.designation}</p>
 								<ul className="mt-4">
