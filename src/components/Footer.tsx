@@ -2,7 +2,7 @@ import React from 'react';
 import HoverText from '@/components/CSText';
 import Image from 'next/image';
 import logo from '@/assets/logo2.png';
-import { FaTelegram } from 'react-icons/fa';
+import { FaDiscord, FaTelegram } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import Link from 'next/link';
 
@@ -16,7 +16,7 @@ const footerOptions = [
 const socials = [
 	{ name: 'Twitter', icon: FaXTwitter, link: 'https://x.com/war3kingdoms_' },
 	{ name: 'Telegram', icon: FaTelegram, link: 'https://t.me/war3kingdoms_ann' },
-	// { name: 'Discord', icon: FaDiscord, link: 'https://discord.com/app' },
+	{ name: 'Discord', icon: FaDiscord, link: 'https://discord.gg/QEZ728aD9e' },
 	// { name: 'Twitter', icon: FaTwitter, link: '' },
 	// { name: 'Instagram', icon: FaInstagram, link: '' },
 	// { name: 'YouTube', icon: FaYoutube, link: '' },
