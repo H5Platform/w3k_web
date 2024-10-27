@@ -11,8 +11,7 @@ const Mont = Montserrat({ weight: ['400', '500'], subsets: ['latin'], variable: 
 
 export const metadata: Metadata = {
 	title: 'War Three Kingdoms',
-	description:
-		'War Three Kingdoms: Rise of a New Empire. In a world where the three most powerful kingdoms vie for control, the land is ravaged by endless battles, political schemes, and betrayals. The once-great empires of the Three Kingdoms: Wei, Shu, and Wu are now embroiled in a struggle for dominance, and only one will emerge victorious to unite the fragmented territories under one banner.',
+	description: 'War Three Kingdoms: Rise of a New Empire, is a WEB3-oriented NFT Mobile / Telegram Mini game for RPG game lovers, enhanced with new dynamics and strategies',
 };
 
 export default function RootLayout({
