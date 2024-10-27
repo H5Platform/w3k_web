@@ -4,7 +4,7 @@ import { Button, TextField } from '@mui/material';
 import Image from 'next/image';
 import React, { useState } from 'react';
 // import banner from '@/assets/banner.png';
-import banner2 from '@/assets/banner3.jpg';
+import banner2 from '@/assets/banner4.jpg';
 import toast from 'react-hot-toast';
 
 const Newsletter = () => {

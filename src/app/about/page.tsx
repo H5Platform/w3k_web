@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 // import banner from '@/assets/banner.png';
-import banner2 from '@/assets/banner3.jpg';
+import banner2 from '@/assets/banner4.jpg';
 import DividerWithText from '@/components/DividerWithText';
 // import marco from '@/assets/team/cto.jpg';
 // import jason from '@/assets/team/jason.png';

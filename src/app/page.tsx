@@ -6,7 +6,8 @@ import { FaTelegram } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import logo from '@/assets/logo2.png';
 import banner2 from '@/assets/banner2.png';
-import banner3 from '@/assets/banner3.jpg';
+// import banner3 from '@/assets/banner3.jpg';
+import banner4 from '@/assets/banner4.jpg';
 import news1 from '@/assets/Thumbnails/t4.jpg';
 import news2 from '@/assets/Thumbnails/t3.jpg';
 import news3 from '@/assets/Thumbnails/t2.jpg';
@@ -68,7 +69,7 @@ export default function Home() {
 						<GameSlider />
 					</div>
 
-					<Image src={banner3} alt="banner" className="h-full w-full object-cover absolute -z-10" />
+					<Image src={banner4} alt="banner" className="h-full w-full object-cover absolute -z-10" />
 					<div className="bg-black opacity-15 w-full absolute h-full -z-10"></div>
 				</div>
 
