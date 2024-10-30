@@ -14,7 +14,7 @@ const footerOptions = [
 ];
 
 const socials = [
-	{ name: 'Twitter', icon: FaXTwitter, link: 'https://x.com/war3kingdoms_' },
+	{ name: 'Twitter', icon: FaXTwitter, link: 'https://x.com/war3kingdom' },
 	{ name: 'Telegram', icon: FaTelegram, link: 'https://t.me/war3kingdoms_ann' },
 	{ name: 'Discord', icon: FaDiscord, link: 'https://discord.gg/QEZ728aD9e' },
 	// { name: 'Twitter', icon: FaTwitter, link: '' },
